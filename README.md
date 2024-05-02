@@ -28,10 +28,3 @@ The application uses the WebRTC API to establish a peer-to-peer connection betwe
 - **ICE Candidate Exchange:** ICE candidates are exchanged between peers through the `onicecandidate` event handlers. Each peer adds the received ICE candidates using `addIceCandidate()` to establish network connectivity.
 - **Media Stream Handling:** Video streams from the local and remote peers are displayed in `<video>` elements on the web page.
 
-## Contributing
-
-Contributions are welcome! If you find any bugs or have suggestions for improvements, feel free to open an issue or submit a pull request.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
